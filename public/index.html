@@ -2,24 +2,26 @@
 <html>
 <head>
   <title>Cotizaciones</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Cotizaciones</h1>
+  <div class="container">
+    <h1>Cotizaciones</h1>
 
-  <form id="search-form">
-    <input type="text" id="search-input" placeholder="Buscar moneda...">
-    <button type="submit">Buscar</button>
-  </form>
+    <form id="search-form">
+      <input type="text" id="search-input" placeholder="Buscar moneda...">
+      <button type="submit">Buscar</button>
+    </form>
 
-  <table>
-    <thead>
-      <tr>
-        <th>Moneda</th>
-        <th>Precio (USD)</th>
-      </tr>
-    </thead>
-    <tbody id="cotizaciones-body"></tbody>
-  </table>
+    <table>
+      <thead>
+        <tr>
+          <th>Moneda</th>
+          <th>Precio (USD)</th>
+        </tr>
+      </thead>
+      <tbody id="cotizaciones-body"></tbody>
+    </table>
+  </div>
 </body>
 </html>
-
